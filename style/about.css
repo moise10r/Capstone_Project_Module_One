@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+@font-face {
+  font-family: Cocogoose;
+  src: url(../fonts/Cocogoose.otf);
+  font-weight: bold;
+}
+
+:root {
+  --textColor: #272a31;
+  --primaryColor: #d3d3d3;
+  --secondaryColor: #ec5242;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  width: 100%;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 1.6rem;
+  font-family: 'Lato', sans-serif;
+  width: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+input,
+button {
+  border: none;
+  outline: none;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+  fill: #fff;
+  display: flex;
+  align-items: center;
+}
+
+#header {
+  width: 100%;
+  position: fixed;
+  top: 0%;
+  left: 0;
+  z-index: 1000;
+}
+
+.top-navbar {
+  width: 100%;
+  height: 30px;
+  background-color: var(--textColor);
+  display: none;
+}
+
+.top-navbar-list {
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.top-navbar-list li {
+  padding-left: 2rem;
+}
+
+.family-img a {
+  width: 100%;
+}
+
+.top-navbar-list li a {
+  color: var(--primaryColor);
+}
+
+.main-navbar {
+  width: 100%;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-content {
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-content .logo {
+  height: 4rem;
+  width: 15rem;
+  display: none;
+  cursor: pointer;
+}
+
+.navbar-content .logo img {
+  max-width: 100%;
+  height: 100%;
+  width: 100%;
+}
+
+.navbar-content .navbar {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-content .navbar .close {
+  display: none;
+}
+
+.main-navbar .navbar .menu {
+  font-size: 3rem;
+  color: var(--textColor);
+  padding-top: 3rem;
+}
+
+.navbar .nav-list {
+  height: 100%;
+  display: none;
+  align-items: center;
+}
+
+.navbar .nav-list .nav-link {
+  margin-left: 4rem;
+}
+
+.navbar .nav-list .nav-link a {
+  color: var(--textColor);
+}
+
+.navbar .nav-list .nav-link a.about {
+  color: red;
+}
+
+.navbar .nav-list .nav-link a.adoption {
+  padding: 1rem 2rem;
+  border: 3px solid var(--secondaryColor);
+  color: var(--secondaryColor);
+  font-weight: 700;
+}
