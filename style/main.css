@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+@font-face {
+  font-family: Cocogoose;
+  src: url(../fonts/Cocogoose.otf);
+  font-weight: bold;
+}
+
+:root {
+  --textColor: #272a31;
+  --primaryColor: #d3d3d3;
+  --secondaryColor: #ec5242;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  width: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 1.6rem;
+  font-family: 'Lato', sans-serif;
+  width: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+input,
+button {
+  border: none;
+  outline: none;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+  fill: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.main-navbar .navbar .menu {
+  font-size: 3rem;
+  color: var(--textColor);
+  padding-top: 3rem;
+}
+
+.navbar .nav-list {
+  height: 100%;
+  display: none;
+  align-items: center;
+}
+
+#header {
+  width: 100%;
+  position: fixed;
+  top: 0%;
+  left: 0;
+  z-index: 200;
+}
+
+.top-navbar-list li a {
+  color: var(--primaryColor);
+}
+
+.navbar-content .navbar .close {
+  display: none;
+}
+
+.navbar .nav-list .nav-link {
+  margin-left: 4rem;
+}
+
+.navbar .nav-list .nav-link a {
+  color: var(--textColor);
+}
+
+.main-navbar.open {
+  height: 100vh;
+  width: 100%;
+  background-color: var(--secondaryColor);
+  opacity: 0.9;
+  z-index: 1000;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.main-navbar.open .navbar .close {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 2rem;
+  right: 2rem;
+  cursor: pointer;
+}
+
+.main-navbar.open .navbar .close .fa {
+  font-size: 24px;
+  color: #fff;
+}
+
+.main-navbar.open .navbar .menu {
+  display: none;
+}
+
+.navbar-content .navbar {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main-navbar.open .navbar .nav-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-top: 10rem;
+}
+
+.main-navbar.open .navbar .nav-list .nav-link {
+  margin-bottom: 2rem;
+}
+
+.main-navbar.open .navbar .nav-list .nav-link:last-child {
+  display: none;
+}
+
+.main-navbar.open .navbar .nav-list .nav-link a {
+  font-size: 2.4rem;
+  color: #fff;
+}
+
+.top-navbar {
+  width: 100%;
+  height: 30px;
+  background-color: var(--textColor);
+  display: none;
+}
+
+.top-navbar-list {
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.top-navbar-list li {
+  padding-left: 2rem;
+}
+
+.main-navbar {
+  width: 100%;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-content {
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-content .logo {
+  height: 4rem;
+  width: 15rem;
+  display: none;
+  cursor: pointer;
+}
+
+.navbar-content .logo img {
+  max-width: 100%;
+  height: 100%;
+  width: 100%;
+}
+
+.navbar .nav-list .nav-link a.about {
+  color: red;
+}
+
+.navbar .nav-list .nav-link a.adoption {
+  padding: 1rem 2rem;
+  border: 3px solid var(--secondaryColor);
+  color: var(--secondaryColor);
+  font-weight: 700;
+}
