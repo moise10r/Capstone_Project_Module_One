@@ -4,6 +4,14 @@ const menu = document.querySelector('.menu');
 const close = document.querySelector('.close');
 const mainNavbar = document.querySelector('.main-navbar');
 const memberlist = document.querySelector('.team-members');
+const navLink = document.querySelectorAll('.nav-list .nav-link a');
+
+Array.from(navLink).forEach((item) => {
+  item.addEventListener('click', () => {
+    mainNavbar.classList.remove('open');
+    mainNavbar.classList.add('backg');
+  });
+});
 
 menu.addEventListener('click', () => {
   mainNavbar.classList.add('open');
