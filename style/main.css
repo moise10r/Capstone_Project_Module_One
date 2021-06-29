@@ -292,3 +292,119 @@ button {
 .headline .detail p {
   color: var(--textColor);
 }
+
+.mission {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  background-color: var(--textColor);
+  z-index: 9;
+  padding-bottom: 3rem;
+}
+
+.mission .bg-color-mission {
+  background-image: url('/Images/_Clip\ Group_.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.19;
+  z-index: -1;
+}
+
+.main-container-mission {
+  width: 100%;
+  z-index: 100;
+  color: #fff;
+  padding-top: 6rem;
+}
+
+.main-container-mission .title {
+  text-align: center;
+  position: relative;
+  margin-bottom: 3rem;
+}
+
+.main-container-mission .title::after {
+  position: absolute;
+  content: '';
+  height: 1px;
+  width: 70px;
+  background-color: var(--secondaryColor);
+  bottom: -1.4rem;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+}
+
+.mission-list {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.mission-list .mission-card {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 3rem;
+  position: relative;
+  padding: 2rem;
+}
+
+.mission-card .mission-card-bg {
+  background-color: #fff;
+  opacity: 0.1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.mission-card .content-mission {
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.mission-card .content-mission .mission-title h2 {
+  font-size: 2rem;
+  font-weight: 900;
+  color: var(--secondaryColor);
+  margin: 0 2rem;
+}
+
+.mission-card .mission-detail {
+  width: 55%;
+}
+
+.mission-btn {
+  width: 100%;
+  text-align: center;
+  margin: 6rem 0;
+}
+
+.mission-btn .btn {
+  padding: 3rem 0;
+  display: inline-block;
+  width: 70%;
+  margin: 0 auto;
+  background-color: var(--secondaryColor);
+  color: #fff;
+  font-size: 2.3rem;
+  flex-wrap: nowrap;
+  max-width: 350px;
+}
+
+.see-more-container {
+  display: none;
+}
