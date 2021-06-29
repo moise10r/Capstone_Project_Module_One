@@ -554,3 +554,53 @@ button {
   text-align: center;
   color: var(--textColor);
 }
+
+.our-partners {
+  width: 100%;
+  background-color: var(--textColor);
+  opacity: 0.9;
+  padding: 3rem 0;
+  margin-top: 3rem;
+}
+
+.about-title {
+  width: 70%;
+  text-align: center;
+  position: relative;
+  margin: 3rem auto;
+  color: var(--textColor);
+}
+
+.about-title::after {
+  position: absolute;
+  content: '';
+  height: 1px;
+  width: 30px;
+  background-color: var(--secondaryColor);
+  bottom: -1.4rem;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+}
+
+.our-partners .about-title {
+  color: #fff;
+}
+
+.partner-list {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.partner-list li {
+  margin: 1rem 1rem;
+}
+
+.team .see-more .btn span:last-child {
+  color: var(--secondaryColor);
+  margin-left: 1rem;
+}
