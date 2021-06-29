@@ -387,6 +387,12 @@ button {
   padding: 2rem;
 }
 
+.mission-list .mission-card:hover {
+  border: 1px solid var(--primaryColor);
+  transform: scale(1);
+  cursor: pointer;
+}
+
 .mission-card .mission-card-bg {
   background-color: #fff;
   opacity: 0.1;
