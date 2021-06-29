@@ -9,7 +9,7 @@ const data = [
   {
     id: 2,
     memberName: 'Abigail Rodriguez',
-    profile: '../images/profile_1.jpeg',
+    profile: 'images/profile_1.jpeg',
     about: 'Abigail Rodriguez is from Norwalk, CT but she’s lived in Colorado Springs for three years',
     work: 'Abigail is stoked to be a part of the Adopt a Love Story team, where she can use her background in social media and marketing to help tell beautiful stories of adoption',
   },
