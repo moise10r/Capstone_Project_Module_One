@@ -261,3 +261,55 @@ button {
   margin-bottom: 3rem;
   text-decoration-style: solid;
 }
+
+.about-adoption {
+  width: 100%;
+  margin: 3rem 0;
+  border-bottom: 2px solid var(--primaryColor);
+  padding-bottom: 3rem;
+}
+
+.about-title {
+  width: 70%;
+  text-align: center;
+  position: relative;
+  margin: 3rem auto;
+  color: var(--textColor);
+}
+
+.about-title::after {
+  position: absolute;
+  content: '';
+  height: 1px;
+  width: 30px;
+  background-color: var(--secondaryColor);
+  bottom: -1.4rem;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+}
+
+.about-adoption-detail {
+  width: 70%;
+  text-align: center;
+  margin: 3rem auto;
+  color: var(--textColor);
+  font-weight: 600;
+}
+
+.adoption-logo {
+  width: 90%;
+  margin: 2rem auto;
+  height: 180px;
+  border: 2px solid var(--primaryColor);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.adoption-logo .logo-img {
+  max-width: 100%;
+  height: 150px;
+  text-align: center;
+}
+
