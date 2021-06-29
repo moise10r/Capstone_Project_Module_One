@@ -501,9 +501,18 @@ button {
 
 .team-members .member {
   width: 100%;
-  display: flex;
+  display: none;
   align-items: center;
   margin-bottom: 5rem;
+}
+
+.team-members .member:first-child,
+.team-members .member:nth-child(2) {
+  display: flex;
+}
+
+.team-members .member.show {
+  display: flex;
 }
 
 .team-members .member:last-child {
