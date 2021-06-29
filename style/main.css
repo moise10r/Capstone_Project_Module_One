@@ -636,3 +636,127 @@ button {
 #footer .created p {
   color: var(--textColor);
 }
+
+
+@media screen and (min-width: 768px) {
+  .top-navbar {
+    display: block;
+  }
+
+  .main-navbar {
+    box-shadow: 0 8px 16px rgb(39, 42, 49, 0.3);
+    background-color: #fff;
+    padding: 1rem 0;
+  }
+
+  .main-navbar .navbar .menu {
+    display: none;
+  }
+
+  .main-navbar .logo {
+    display: block;
+  }
+
+  .navbar .nav-list {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .main-navbar .navbar {
+    justify-content: flex-end;
+  }
+
+  .headline {
+    margin-top: 8rem;
+  }
+
+  .headline .main-tilte {
+    width: 65%;
+  }
+
+  .main-content {
+    align-items: flex-start;
+  }
+
+  .headline .detail {
+    width: 60%;
+    max-width: 500px;
+    margin: 0;
+  }
+
+  .work-time {
+    width: 60%;
+    max-width: 500px;
+    margin: 2rem 0;
+  }
+
+  .mission-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .mission-list .mission-card {
+    width: 15%;
+    margin: 0;
+    padding: 0;
+    margin-left: 1rem;
+  }
+
+  .mission-card .content-mission {
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  .mission-card .mission-detail {
+    width: 100%;
+    text-align: center;
+  }
+
+  .mission-card .content-mission .mission-title h2 {
+    margin: 1rem 0;
+  }
+
+  .mission-btn {
+    display: none;
+  }
+
+  .see-more-container {
+    width: 15%;
+    margin: 0 auto;
+    display: flex;
+    justify-items: flex-end;
+    align-items: center;
+    text-align: center;
+  }
+
+  .see-more-container .see-more-link {
+    color: #fff;
+    width: 100%;
+    font-size: 1.8rem;
+    margin: 4rem 0;
+    padding: 1rem 1rem;
+    text-transform: uppercase;
+    text-decoration: underline;
+    flex-wrap: wrap;
+  }
+
+  .team-members {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 3rem;
+  }
+
+  .team .see-more {
+    display: none;
+  }
+
+  .footer-main-container {
+    justify-content: center;
+    align-items: center;
+  }
+
+  #footer .created {
+    justify-content: flex-start;
+  }
+}
