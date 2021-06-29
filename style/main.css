@@ -202,7 +202,7 @@ button {
 }
 
 .navbar .nav-list .nav-link a.about {
-  color: red;
+  color: var(--secondaryColor);
 }
 
 .navbar .nav-list .nav-link a.adoption {
