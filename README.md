@@ -7,7 +7,7 @@
 
 
 ## live demo
-- this is the link for the live demo:
+- this is the link for the live demo: https://moise10r.github.io/Capstone_Project_Module_One
 ## Materials required for validation
 
 - follow this link :
