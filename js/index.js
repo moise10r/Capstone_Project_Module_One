@@ -7,10 +7,20 @@ const memberlist = document.querySelector('.team-members');
 
 menu.addEventListener('click', () => {
   mainNavbar.classList.add('open');
+  mainNavbar.classList.remove('backg');
 });
 
 close.addEventListener('click', () => {
   mainNavbar.classList.remove('open');
+  mainNavbar.classList.add('backg');
+});
+
+window.addEventListener('scroll', () => {
+  if (window.pageYOffset > 100) {
+    mainNavbar.classList.add('backg');
+  } else {
+    mainNavbar.classList.remove('backg');
+  }
 });
 
 data.forEach((member) => {

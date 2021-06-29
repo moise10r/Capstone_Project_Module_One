@@ -99,6 +99,92 @@ button {
   justify-content: space-between;
 }
 
+.main-navbar.backg {
+  background-color: #fff;
+  box-shadow: 0 8px 16px rgb(39, 42, 49, 0.3);
+  height: 7rem;
+}
+
+.main-navbar .navbar .menu {
+  font-size: 3rem;
+  color: var(--textColor);
+  padding-top: 3rem;
+}
+
+.main-navbar.backg .navbar .menu {
+  padding: 0;
+}
+
+.navbar-content .navbar .close {
+  display: none;
+}
+
+.navbar .nav-list {
+  height: 100%;
+  display: none;
+  align-items: center;
+}
+
+.navbar .nav-list .nav-link {
+  margin-left: 4rem;
+}
+
+.navbar .nav-list .nav-link a {
+  color: var(--textColor);
+}
+
+.main-navbar.open {
+  height: 100vh;
+  width: 100%;
+  background-color: var(--secondaryColor);
+  opacity: 0.9;
+  z-index: 1000;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.main-navbar.open .navbar .close {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 2rem;
+  right: 2rem;
+  cursor: pointer;
+}
+
+.main-navbar.open .navbar .close .fa {
+  font-size: 24px;
+  color: #fff;
+}
+
+.main-navbar.open .navbar .menu {
+  display: none;
+}
+
+.main-navbar.open .navbar .nav-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-top: 10rem;
+}
+
+.main-navbar.open .navbar .nav-list .nav-link {
+  margin-bottom: 2rem;
+}
+
+.main-navbar.open .navbar .nav-list .nav-link:last-child {
+  display: none;
+}
+
+.main-navbar.open .navbar .nav-list .nav-link a {
+  font-size: 2.4rem;
+  color: #fff;
+}
+
 .navbar-content {
   width: 90%;
   height: 100%;
@@ -126,30 +212,6 @@ button {
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
-
-.navbar-content .navbar .close {
-  display: none;
-}
-
-.main-navbar .navbar .menu {
-  font-size: 3rem;
-  color: var(--textColor);
-  padding-top: 3rem;
-}
-
-.navbar .nav-list {
-  height: 100%;
-  display: none;
-  align-items: center;
-}
-
-.navbar .nav-list .nav-link {
-  margin-left: 4rem;
-}
-
-.navbar .nav-list .nav-link a {
-  color: var(--textColor);
 }
 
 .navbar .nav-list .nav-link a.about {
@@ -365,4 +427,129 @@ button {
   color: #fff;
   font-size: 2.3rem;
   text-align: center;
+}
+
+.our-partners {
+  width: 100%;
+  background-color: var(--textColor);
+  opacity: 0.9;
+  padding: 3rem 0;
+  margin-top: 3rem;
+}
+
+.our-partners .about-title {
+  color: #fff;
+}
+
+.partner-list {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.partner-list li {
+  margin: 1rem 1rem;
+}
+
+#footer {
+  width: 100%;
+}
+
+.footer-main-container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5rem 0;
+}
+
+#footer .logo {
+  height: 6.5rem;
+  width: 15rem;
+  margin-right: 2.5rem;
+}
+
+#footer .logo img {
+  max-width: 100%;
+}
+
+#footer .created {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#footer .created p {
+  color: var(--textColor);
+}
+
+@media screen and (min-width: 768px) {
+  .top-navbar {
+    display: block;
+  }
+
+  .main-navbar {
+    box-shadow: 0 8px 16px rgb(39, 42, 49, 0.3);
+    background-color: #fff;
+    padding: 1rem 0;
+  }
+
+  .main-navbar .navbar .menu {
+    display: none;
+  }
+
+  .main-navbar .logo {
+    display: block;
+  }
+
+  .navbar .nav-list {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .main-navbar .navbar {
+    justify-content: flex-end;
+  }
+
+  .headline {
+    margin-top: 8rem;
+  }
+
+  .headline .main-tilte {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 800px;
+  }
+
+  .headline .detail {
+    max-width: 600px;
+  }
+
+  .about-adoption-detail {
+    max-width: 500px;
+  }
+
+  .adoption-logo {
+    max-width: 400px;
+  }
+
+  .family-images-container {
+    width: 60%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 0;
+  }
+
+  .footer-main-container {
+    justify-content: center;
+    align-items: center;
+  }
+
+  #footer .created {
+    justify-content: flex-start;
+  }
 }
