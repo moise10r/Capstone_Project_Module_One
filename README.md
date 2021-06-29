@@ -1,22 +1,23 @@
 
-# Portfolio
- My Portfolio 
+# HONESTLY ADOPTION
+
  
- -This is the portfolio page clone,the view:
-![home_page](https://user-images.githubusercontent.com/57562869/121547713-aca75d80-ca0c-11eb-921f-0286bf87b782.png)
+ -This is the  page view:
+![Honestly](https://user-images.githubusercontent.com/57562869/123866309-2c9a5680-d92d-11eb-951b-a59b46b3d985.png)
+
 
 ## live demo
-- this is the link for the live demo
-https://moise10r.github.io/Personal_Portfolio/
+- this is the link for the live demo:
 ## Materials required for validation
 
 - follow this link :
-  https://github.com/microverseinc/linters-config/tree/master/html-css
+  https://github.com/microverseinc/linters-config/tree/master/html-css-js
 
 ## Built With
 
 - HTML
 - CSS
+- Java-Script
 
 
 ## Get Started
