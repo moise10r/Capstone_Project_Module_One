@@ -293,6 +293,28 @@ button {
   color: var(--textColor);
 }
 
+.work-time {
+  margin: 2rem auto;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+.work-time span {
+  color: var(--textColor);
+}
+
+.work-time span:first-child {
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+
+.work-time span:last-child {
+  font-size: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 10rem;
+}
+
 .mission {
   width: 100%;
   background-repeat: no-repeat;
