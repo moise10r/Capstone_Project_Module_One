@@ -36,7 +36,7 @@ data.forEach((member) => {
     <div class="img-profile">
     <img class="img_1" src=${member.profile} alt="" />
     </div>
-    <img class="img_2" src="/Images/grid.jpg" alt="" />
+    <img class="img_2" src="images/grid.jpg" alt="" />
   </div>
   <div class="about-member">
     <h2 class="name">${member.memberName}</h2>
