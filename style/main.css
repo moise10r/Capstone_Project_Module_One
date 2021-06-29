@@ -574,6 +574,12 @@ button {
   color: var(--textColor);
 }
 
+.team .see-more .btn:hover {
+  background-color: var(--secondaryColor);
+  color: var(--textColor);
+  font-weight: 700;
+}
+
 .our-partners {
   width: 100%;
   background-color: var(--textColor);
@@ -622,6 +628,10 @@ button {
 .team .see-more .btn span:last-child {
   color: var(--secondaryColor);
   margin-left: 1rem;
+}
+
+.team .see-more .btn:hover span:last-child {
+  color: var(--primaryColor);
 }
 
 #footer {
@@ -766,7 +776,8 @@ button {
   }
 
   .team .see-more {
-    display: none;
+    width: 30%;
+    margin: 0 auto;
   }
 
   .footer-main-container {
