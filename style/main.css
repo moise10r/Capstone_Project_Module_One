@@ -786,6 +786,10 @@ button {
     grid-gap: 3rem;
   }
 
+  .team-members .member {
+    flex-direction: row;
+  }
+
   .team .see-more {
     width: 30%;
     margin: 0 auto;
