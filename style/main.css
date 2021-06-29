@@ -637,7 +637,6 @@ button {
   color: var(--textColor);
 }
 
-
 @media screen and (min-width: 768px) {
   .top-navbar {
     display: block;
