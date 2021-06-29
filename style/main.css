@@ -503,6 +503,7 @@ button {
   width: 100%;
   display: none;
   align-items: center;
+  flex-direction: column;
   margin-bottom: 5rem;
 }
 
@@ -522,12 +523,14 @@ button {
 .about-member {
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
 .about-member .name {
   font-size: 2.3rem;
   color: var(--textColor);
   margin-bottom: 1rem;
+  text-align: center;
 }
 
 .about-member i {
@@ -664,6 +667,14 @@ button {
 
 #footer .created p {
   color: var(--textColor);
+}
+
+@media screen and (min-width: 500px) {
+  .team-members {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 3rem;
+  }
 }
 
 @media screen and (min-width: 768px) {
