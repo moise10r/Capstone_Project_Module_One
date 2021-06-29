@@ -211,3 +211,84 @@ button {
   color: var(--secondaryColor);
   font-weight: 700;
 }
+
+#main {
+  width: 100%;
+}
+
+.headline {
+  width: 100%;
+}
+
+.headline .our-terms {
+  width: 100%;
+  height: auto;
+  background-image: url('/Images/bg.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.our-term-main-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.headline .slogan {
+  padding-top: 13rem;
+  font-size: 2.3rem;
+  color: var(--secondaryColor);
+}
+
+.headline .main-tilte {
+  width: 100%;
+}
+
+.headline h1 {
+  color: var(--secondaryColor);
+  font-weight: 900;
+  font-size: 4rem;
+  line-height: 52px;
+  font-family: "Cocogoose", sans-serif;
+  text-transform: uppercase;
+}
+
+.headline .detail-container {
+  width: 100%;
+  height: auto;
+  padding: 3rem 0;
+  position: relative;
+  z-index: 100;
+}
+
+.main-content {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg-color {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--primaryColor);
+  opacity: 0.33;
+  z-index: -1;
+}
+
+.headline .detail {
+  width: 80%;
+  margin: 0 auto;
+  padding: 2rem;
+  font-size: 20px;
+  border: 2px solid #ccc;
+}
+
+.headline .detail p {
+  color: var(--textColor);
+}
