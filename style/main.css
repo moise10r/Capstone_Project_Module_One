@@ -313,7 +313,8 @@ button {
   position: relative;
   background-color: var(--textColor);
   z-index: 9;
-  padding: 14rem 0;
+  padding-top: 6rem;
+  padding-bottom: 14rem;
 }
 
 .mission .bg-color-mission {
