@@ -52,6 +52,11 @@ button {
   align-items: center;
 }
 
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
 #header {
   width: 100%;
   position: fixed;
@@ -68,9 +73,7 @@ button {
 }
 
 .top-navbar-list {
-  width: 90%;
   height: 100%;
-  margin: 0 auto;
   justify-content: flex-end;
 }
 
@@ -178,9 +181,7 @@ button {
 }
 
 .navbar-content {
-  width: 90%;
   height: 100%;
-  margin: 0 auto;
   justify-content: space-between;
 }
 
@@ -231,8 +232,6 @@ button {
 }
 
 .our-term-main-container {
-  width: 90%;
-  margin: 0 auto;
   text-align: center;
 }
 
@@ -347,8 +346,6 @@ button {
 }
 
 .adoption-logo {
-  width: 90%;
-  margin: 2rem auto;
   height: 180px;
   border: 2px solid var(--primaryColor);
   justify-content: center;
