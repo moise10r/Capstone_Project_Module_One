@@ -7,11 +7,11 @@
 
 
 ## live demo
-- this is the link for the live demo: https://moise10r.github.io/Capstone_Project_Module_One
+- [live demo](https://moise10r.github.io/Capstone_Project_Module_One)
 ## Materials required for validation
 
 - follow this link :
-  https://github.com/microverseinc/linters-config/tree/master/html-css-js
+  [linters configuration](https://github.com/microverseinc/linters-config/tree/master/html-css-js)
 
 ## Built With
 
@@ -43,4 +43,9 @@ Contributions, issues, and feature requests are welcome!
 ## Show your support
 
 Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Design and inspiration by [Cindy Shin on Behance](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
+- Microverse
 
