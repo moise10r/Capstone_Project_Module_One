@@ -44,3 +44,8 @@ Contributions, issues, and feature requests are welcome!
 
 Give a ⭐️ if you like this project!
 
+## Acknowledgments
+
+- Design and inspiration by [Cindy Shin on Behance](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
+- Microverse
+
