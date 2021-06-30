@@ -52,8 +52,16 @@ button {
   width: 50px;
   height: 50px;
   fill: #fff;
+}
+
+.flex-center {
   display: flex;
   align-items: center;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
 }
 
 .main-navbar .navbar .menu {
@@ -156,8 +164,6 @@ button {
 
 .navbar-content .navbar {
   height: 100%;
-  display: flex;
-  align-items: center;
   justify-content: space-between;
 }
 
@@ -169,11 +175,7 @@ button {
 }
 
 .top-navbar-list {
-  width: 80%;
   height: 100%;
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
   justify-content: flex-end;
 }
 
@@ -184,17 +186,11 @@ button {
 .main-navbar {
   width: 100%;
   height: 4rem;
-  display: flex;
-  align-items: center;
   justify-content: space-between;
 }
 
 .navbar-content {
-  width: 80%;
   height: 100%;
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
   justify-content: space-between;
 }
 
@@ -239,11 +235,6 @@ button {
   background-repeat: no-repeat;
 }
 
-.our-term-main-container {
-  width: 80%;
-  margin: 0 auto;
-}
-
 .headline .slogan {
   padding-top: 13rem;
   font-size: 2.3rem;
@@ -272,12 +263,8 @@ button {
 }
 
 .main-content {
-  width: 80%;
-  margin: 0 auto;
-  display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
 }
 
 .bg-color {
@@ -292,8 +279,6 @@ button {
 }
 
 .headline .detail {
-  width: 80%;
-  margin: 0 auto;
   padding: 2rem;
   font-size: 20px;
   border: 2px solid #ccc;
@@ -304,8 +289,6 @@ button {
 }
 
 .work-time {
-  margin: 2rem auto;
-  width: 80%;
   display: flex;
   flex-direction: column;
 }
@@ -380,8 +363,6 @@ button {
 }
 
 .mission-list .mission-card {
-  width: 80%;
-  margin: 0 auto;
   margin-top: 3rem;
   position: relative;
   padding: 2rem;
@@ -406,8 +387,6 @@ button {
 
 .mission-card .content-mission {
   z-index: 10;
-  display: flex;
-  align-items: center;
   justify-content: space-between;
 }
 
@@ -469,10 +448,6 @@ button {
 }
 
 .team-members {
-  width: 80%;
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
   flex-direction: column;
   padding-bottom: 5rem;
 }
@@ -569,8 +544,6 @@ button {
 
 .team .see-more .btn {
   display: inline-block;
-  width: 80%;
-  margin: 0 auto;
   padding: 1.6rem 0;
   background-color: #fff;
   border: 1px solid var(--primaryColor);
@@ -621,9 +594,7 @@ button {
 .partner-list {
   width: 100%;
   margin: 0 auto;
-  display: flex;
   justify-content: center;
-  align-items: center;
   flex-wrap: wrap;
 }
 
@@ -645,11 +616,7 @@ button {
 }
 
 .footer-main-container {
-  width: 80%;
-  margin: 0 auto;
-  display: flex;
   justify-content: space-between;
-  align-items: center;
   padding: 5rem 0;
 }
 
@@ -766,9 +733,7 @@ button {
   .see-more-container {
     width: 15%;
     margin: 0 auto;
-    display: flex;
     justify-items: flex-end;
-    align-items: center;
     text-align: center;
   }
 
