@@ -257,7 +257,7 @@ button {
 .headline h1 {
   color: var(--secondaryColor);
   font-weight: 900;
-  font-size: 4rem;
+  font-size: 3.5rem;
   line-height: 52px;
   font-family: "Cocogoose", sans-serif;
   text-transform: uppercase;
