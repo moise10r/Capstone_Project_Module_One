@@ -476,6 +476,7 @@ button {
   top: -2rem;
   left: -2rem;
   z-index: -1;
+  opacity: 0.4;
 }
 
 .team-members .member {
