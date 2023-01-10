@@ -1,5 +1,5 @@
 
-# HONESTLY ADOPTION
+# HONESTLY ADOPTION.
 Adoption is a web page of a simple series of unconnected stories but is in fact a movement that can change the lives of millions of children.
  
  -This is the  page view:
